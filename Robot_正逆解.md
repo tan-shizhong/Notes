@@ -1,4 +1,4 @@
-# Robot_正逆解
+# Robot_空间转换、正逆解
 
 ---
 - @author: ShiZhong Tan
@@ -10,7 +10,7 @@
 
 <!-- code_chunk_output -->
 
-- [Robot_正逆解](#robot_正逆解)
+- [Robot_空间转换、正逆解](#robot_空间转换-正逆解)
   - [空间姿态表示方法](#空间姿态表示方法)
     - [坐标变换](#坐标变换)
     - [旋转矩阵(Rotation matrix)](#旋转矩阵rotation-matrix)
@@ -169,38 +169,48 @@ $$
 
 #### 轴角输入
 
->axang2quat
+```
+axang2quat
 axang2rotm
 axang2tform
+```
 
 #### 欧拉角输入
 
->eul2quat
+```
+eul2quat
 eul2rotm
 eul2tform
+```
 
 #### 四元数输入
 
->quat2axang
+```
+quat2axang
 quat2eul
 quat2rotm
 quat2tform
+```
 
 #### 旋转矩阵输入
 
->rotm2axang
+```
+rotm2axang
 rotm2eul
 rotm2quat
 rotm2tform
+```
 
 #### 齐次矩阵
 
->tform2axang
+```
+tform2axang
 tform2eul
 tform2quat
 tform2rotm
 tform2trvec
 trvec2tform
+```
 
 #### Matlab绘制姿态矩阵及移动代码
 
